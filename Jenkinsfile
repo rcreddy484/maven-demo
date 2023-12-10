@@ -14,7 +14,7 @@ pipeline {
             steps {
                 // Run Checkstyle analysis
                 // The path to the Checkstyle configuration file may need adjustment based on your project structure
-                bat 'mvn checkstyle:checkstyle -Dcheckstyle.config.location=checkstyle.xml'
+                bat 'mvn checkstyle:checkstyle'
             }
         }
     }
